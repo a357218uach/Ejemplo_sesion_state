@@ -1,7 +1,7 @@
 import streamlit as st
 st.title ("Ejemplo para usar session_state")
 
-if "key" not is st.session_state:
+if "key" not if st.session_state:
   st.session_state["key"] = "valor"
   
 count = 0
